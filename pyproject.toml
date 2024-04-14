@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "linkedin-scrapper"
+version = "0.0.1"
+description = "This app scrapes data from linkedin"
+authors = ["Mostofa Sunan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+playwright = "^1.47.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
